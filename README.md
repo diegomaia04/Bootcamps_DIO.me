@@ -34,7 +34,13 @@ git status - responsavel pela area de prepração e o status do git
 ```
 cd. - sair de dentro de uma pasta no git bash
 ```
+```
+git commit. -inserir/salvar um arquivo 
+```
+```
+git init. -para inicializar 
+```
 
 | O que é GitHub? |
 
-Plataforma de hsopenadagem de codigo versão com Git, onde é possivel criaar repositorios e guardar projetos ou vizualisar codigos de open source.
+Plataforma de hsopenadagem de codigo versão com Git, onde é possivel criaar repositorios e guardar projetos ou vizualisar codigos de open source. O GitHub é o repositorio remoto e o GIt é o Local.
