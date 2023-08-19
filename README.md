@@ -40,6 +40,9 @@ git commit. -inserir/salvar um arquivo
 ```
 git init. -para inicializar 
 ```
+```
+git pull - apos fazeer mundanças do repositorio remoto, dar esse comando no local para atualizar os arquivos
+```
 
 | O que é GitHub? |
 
