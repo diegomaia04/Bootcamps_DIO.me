@@ -8,6 +8,10 @@ Repositório onde é armazenado os Resumos do Git e GitHub aprendidos no Curso d
 
 Sistema de controle de versão distribuido(open source), pratico, ver pagina do GIt para mais detalhes: https://git-scm.com
 
+Brach: uma ramificação de um projeto que está em aberto. A cada nova Brach é cirado uma nova commit
+
+Commit: é o ato de enviar e guardar, ou seja, enviar dados ou códigos para armazenamento em um banco de dados ou em um sistema de controle de versão.
+
 é possivel cirar e clonar repositorios em pastas espeficas ou cirnaod pastas atraves do proprio git no seu computador utilizando o git bash, utilizando os codigos a seguir:
 
 ## Codigos:
