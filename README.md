@@ -4,6 +4,9 @@ Olá Sou Diego Maia Fernandes, tenho 19 anos e estou atualmente cursando Ciênci
 
 Ao longo dessa formação criei projetos que queria compartilhar e receber feedbacks ou algo do gênero. Me sigam no GitHub!
 
+
+Nesse repositorio vou estar depositando e guadarndo resumos, dicas e informações sobre o curso de bootcamp de pytohn com ciencia de dados fornecido por um processo seletivo do santader com distribuição da DIO.
+
 ### Redes Sociais
 
 [![GitHub]( 	https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/diegomaia04)
