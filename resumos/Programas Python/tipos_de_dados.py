@@ -4,12 +4,3 @@ print(True)
 print(False)
 print("Python", 'Python')
 
-int()
-# numero inteiro
-float()
-#numeor quebrao
-bool()
-# condição verdadeira ou falsa
-
-str()
-# texto
