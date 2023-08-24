@@ -25,5 +25,4 @@ STATES = [
        
        ]
 DEBUG = True
-
 print(STATES, AMOUNT, DEBUG)

@@ -4,6 +4,8 @@
 ---
 ### Principais conceitos de python
 
+❗Para documentar algo na linguagem python se usa "#" ❗
+
 #### Dados ####
 
 
@@ -81,9 +83,39 @@ Receber informações e retornar elas ao usuario.
 
 * Função Print: é utilizada quando queremos exibir dados na saída padrão(tela). Ela recebe um argumentos obrigatorio do tipo varargs de objetos e 4 argumentos opcionais(sep,end, file e flush). Todos os obejtos são convertidos para string, separados por sep e termianos por end. A string final é exibida para o usuario
 
+-----------
 
 
-❗Para documentar algo na linguagem python se usa "#" ❗
+#### Operedores Aritiméticos
+
+São operadores que executam contas matemáticas, como adição, subtração, multiplicação e divisão, ver no exemplo de codigos!
+
+#### Operedores de Comparação
+
+São operadores que comparam dois valores. comparam duas variavies ou constantes conforme o que você desjear
+
+#### Opeadores de atribuição
+
+A atribuição de valores é a passagem de informação a determinada variável. Na linguagem Python tem definido que o sinal de igual (=) é o operador de atribuição.É possivel sobrescrever ou adicionar uma variavel já criada atribuindo a mais um  valor
+
+#### Operadores logicos
+
+São operadores utilizados em conjutno com os operaodes de comparação, para montar um expressão logica. Quando um operador de comparação é utilizado, o rsultado é um booleano, dessa forma pdoemos combinar opeardores de comparação com os opeadores logicos
+
+#### Operadores de identidade
+
+Os operadores de identidade servem para a comparação de objetos. Nessa comparação é verificado se eles ocupam a mesma posição na memória, o que significará que se trata do mesmo objeto
+
+
+#### operadores de associação
+São operadores que utilizados para saber se um objeto está presente em uma sequência, PODE SER QUALUQER OBJETO!
+
+
+--------------------------
+
+
+
+
 
 
 
