@@ -85,6 +85,7 @@ Receber informações e retornar elas ao usuario.
 
 -----------
 
+### Operadores *️⃣
 
 #### Operedores Aritiméticos
 
@@ -206,5 +207,29 @@ print(".".join(curso))
 * Interpolação de variavel  em Python temos 3 formas de interpolar variáveis em strings, a primeira é usando o sinal %, a segunda é utilizando o metodo format e a última é utilizando f strings.A primeira forma não é atualmente recomenda e seu uso em Python 3 é raro, por esse motivo iremos focar nas 2 ultumas
 
 * Fatiamneto de String: fatiamneto de strings e uma tecnica utilizada para retornar substrings( partes da string original), informando inicio(start), fim (stop) e passo(step): [start: stop[step]]
+
+* Strings de multiplas linhas: Strings de múltiplas linhas são definidas informandos 3 aspas simples ou duplas duranre a atribuição. Elas podem ocupar várias linhas de codigo, e todos os espaços em branco são incluídos na string final
+
+---------------
+
+### Estrutura de dados
+
+#### Trabalhando com listas ede dados
+
+* Criando listas: Listas em python podem armazenar de maneira sequencial qualuqer tipo de objet. podemos criar listas utilizando o construtor lits, a função rangeou colocando valores separados por virgula detro de colchentes. Listas são obejtos mutáveis, portanto podemos alterar seus valores após a crialção
+
+* Acesso direto: a lista é uma sequencia portanto podemos acessar utilizando indices. Contamos o indice de determinada sequenncia a aprtir de zero
+
+* listas aninhadas
+
+Listas podem armazenar todos os tipo de obejtos Python, portanto podemos ter lsiras que armazenam outras listas. COm isso ppodemos criar estruturas bidimensionais(tabelas), e acessar irnfomando os  indices de linha e clouna
+
+* Fatiamento: alem de acessar elemntos diretamnete, podemos extrair um conjuto de valores de uma sequencia. Para isso basta passar o indice inicial e/ou final para acessar o conjuto. Podemos ainda informar quantas posições o curuso deve pular no acesso
+
+*Iterar lsitas; a forma mais comum para percorrer os daos de uma lista é utilizando o comando for
+
+* Função enumerate: ás vezes é necessario saber qual o indice do obejto dentro do laço for, para isso podemos usar a função enumate
+
+* Compreensão de listas: A compreensão de lista oferece uma sintaxe mais curta quando voc~e deseja: criar uma novalista com base nos valores de uma lsita existente (filtro) ou gerar uma nova lista aplicando alguma modificacao nos elmentos de uma lista existente
 
 
