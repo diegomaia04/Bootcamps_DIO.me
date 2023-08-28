@@ -6,7 +6,7 @@
 
 ❗Para documentar algo na linguagem python se usa "#" ❗
 
-#### Dados ####
+#### 🎲 Dados 🎲####
 
 
 * Existem tipos de dados na linguagem python. Eles servem para definir as caracteriscas e comportanementos de um valor(objeto) para o programa. Os tipos são: 
@@ -27,7 +27,7 @@ Binário > ``` bytes && bytearray && memoryview ```
 
 ---------
 
-#### Modo Interativo ####
+#### 🤬 Modo Interativo 🤬####
 
 O interpretador Python pode executar em modo que possibilite o desevolvendor a escrever o codigo e ver o resultado na hora. Existem duas formas de inicar o modo interativo: 
 
@@ -37,7 +37,7 @@ O interpretador Python pode executar em modo que possibilite o desevolvendor a e
 
 -----------
 
-#### Função dir e help ####
+#### 🧩Função dir e help 🧩####
 
 * dir: Sem arguemntos, retorna a lista de nomes no escopo local atual. Com um argumrntos, retorna uma lista de atributos validos para o objeto. Exemplo: 
 
@@ -53,7 +53,7 @@ O interpretador Python pode executar em modo que possibilite o desevolvendor a e
 
 
 -----------
-#### Variaveis e Constantes ####
+#### 🔷 Variaveis e Constantes 🔷 ####
 
 
 * Variaveis em lingaugens de programça~p podemos definir valores que sofrer alterações no decorrer da execução do programa. Esses valores recebem o nome de variaveis pois eles nascem com um valor e nao necessariamnete deem pernacem com o mesmo durnate a execucao do programa.
@@ -75,7 +75,7 @@ variaveis do tipo string que aramazenam números e precisamos fazzer alguma oper
 
 -----------
 
-#### Funções de entrada e saida
+#### 🔜 Funções de entrada e saida 🔙
 
 Receber informações e retornar elas ao usuario.
 
@@ -151,7 +151,60 @@ ELA recebe 3 arguemntos: stop(obrigatorio), satrt(opciona)l e step opcional))
 
 * O comando while é usado para repetir um blocod e codigo varias vezes. Faz sentido usar while quando não sabemos o número exato de vezes que nosso bloco de codigo deve ser executado
 
+------
+
+#### Manipulando String com Python
+
+   
+  A Classe String do Python é famosa por ser rica em méteodos e possuir uma interfcae muito fácil de trabalhar.
+  Em algumas linguagens manipular sequência de caracteres não é um trabalho trivial, em Python esse travalho é muito simples
 
 
+  ```
+  curso = "Python" 
+  ```
+
+
+``` 
+print(curso.upper())
+-> o valor retorna interamnete em maiusculo
+```
+
+``` 
+print(curso.lower())
+-> o valor retorna interamnete em minisuculo
+```
+
+``` 
+print(curso.title())
+-> o valor retorna com a pirmeira letra em maisucla
+```
+``` 
+print(curso.strip())
+-> o valor retorna sem espaço no terminal 
+```
+
+``` 
+print(curso.lstrip())
+-> o valor retorna com espaço a direita no terminal
+```
+
+``` 
+print(curso.rstrip())
+-> o valor retorna com espaço na esquerda
+```
+```
+print(curso.center(10, "#"))
+-> o valor retorna atqe que a astring tenha 10 caracteres, ele adicona o que esta em "x" para completar 
+```
+
+```
+print(".".join(curso))
+-> o que esta entre "x" retorna entre os caracteres dovalor da String 
+```
+
+* Interpolação de variavel  em Python temos 3 formas de interpolar variáveis em strings, a primeira é usando o sinal %, a segunda é utilizando o metodo format e a última é utilizando f strings.A primeira forma não é atualmente recomenda e seu uso em Python 3 é raro, por esse motivo iremos focar nas 2 ultumas
+
+* Fatiamneto de String: fatiamneto de strings e uma tecnica utilizada para retornar substrings( partes da string original), informando inicio(start), fim (stop) e passo(step): [start: stop[step]]
 
 

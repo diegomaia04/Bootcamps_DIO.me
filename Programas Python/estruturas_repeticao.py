@@ -1,31 +1,11 @@
-# estrutura de repetição for
+opcao = -1
 
-texto = input("informe um texto: ")
-VOGAIS = 'AEIOU'
+while opcao != 0:
+    opcao = int(input("[1] Sacar \n[2] Extrato \n[0] Sair \n: "))
 
-for letra in texto:
-    if letra.upper() in VOGAIS:
-        print(letra, end=" ")
+    if opcao == 1:
+        print("Sacando...")
+    elif opcao == 2:
+        print("Exibindo o extrato...")
 else:
- # print() # adiciona uma quebra de linha texto
-  print("Executa no final do laço")
-
-  # for exemplo utilizando a função buily-in range
-
-  for numero in range(0, 51, 5):
-     print(numero)
-
-for numeor_3 in range(100):
-   if numeor_3 % 2 == 0:
-      continue
-   
-   print(numeor_3)
- 
-     
-
-
-
-
- 
-
-
+    print("Obrigado por usar nosso sistema bancário, até logo!")
