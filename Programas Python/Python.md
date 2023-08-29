@@ -232,4 +232,32 @@ Listas podem armazenar todos os tipo de obejtos Python, portanto podemos ter lsi
 
 * Compreensão de listas: A compreensão de lista oferece uma sintaxe mais curta quando voc~e deseja: criar uma novalista com base nos valores de uma lsita existente (filtro) ou gerar uma nova lista aplicando alguma modificacao nos elmentos de uma lista existente
 
+---------------
+
+#### tuplas
+
+* Tuplas são estruturas de dados muito parecidas com as listas, a principal diferença é que tuplas são imuáveis enqyanto listas são mutáveis. Podemos criar tuplas através da classe tuple, ou colocando valores seprados por virgula de parenteses
+
+* acesso Direto a uma tupla é uma sequência, portanto podemos acessar seus dados utilizando índicies. COntamos o índice de determinada sequ~enccia a partit do zero.
+
+* tuplas aninadas: tuplas podem armazenar todos os tipos de obejtos Python, porntanto podemos ter tuplas que armazenam outras tuplas. Com isso podemos cirar estruturas bidimensionais(tabelas), e acessar informando os índices de linhae coluna
+
+* fatiamneto: além de acessar elemntos diretamente, podemos extarir um conjunto de valores de uma sequencia. Para iso basra passar o índice inicial e/ou final para acessar o conjunto. podemos ainda informar quantas posições o cursor deve "pular no acesso
+
+------------
+
+#### Conjutos impornate
+
+* Conjutos são uma coleção de obejtos e tem elemntos unicos, são elemntos que não esttão duplicados
+
+* Set: um set é uma coleçao que não possui obejtos repetidos, usamos setes para represnetar conjutos matematicos ou eliminar itens duplovados de um iteravel
+
+* acessando os dados: COnjutos em Python não suportam indexação e nem fatiamento, caso queira acessar os sesu valores é necessario converter o conjuto para a lista
+
+* iterar conjutos, a forma mais comum para percorrer os daados de um conjutno é utilizano o comando for
+
+* função enumarate, ás vezes é necessario saber qual o indcie do objeto dentro do laço for. para isso podemos usar a função enumerate
+
+* VER OS PROGRAMAS DE EXEMPLO !!!!!!!!!!!!!!!!!!!!!!!!!! *
+
 
