@@ -136,7 +136,3 @@ print(linguagens)
 
 sorted(linguagens, key=lambda x: len(x), reverse=True)
 print(linguagens)
-
-
-
-
