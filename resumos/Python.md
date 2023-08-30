@@ -260,4 +260,13 @@ Listas podem armazenar todos os tipo de obejtos Python, portanto podemos ter lsi
 
 * VER OS PROGRAMAS DE EXEMPLO !!!!!!!!!!!!!!!!!!!!!!!!!! *
 
+-------------------------------------------
 
+#### Dicionarios no Python 
+
+* Um didiconario é um conjunto não-ordenado de pares chave:: valor, onde as chave ssão unicas em uma dad instância do dicionario.DIcionario são delimitados por chaves: {}, e contém uma lista de pares chave: valor separada por vírgulas, a lista e a tupla tem sequencia
+Acesso aos dados: os dados são acessados e modificados através da chave
+
+* dicionarios aninhadas: dicionarios podem armazena qualquer tipo de obejto python como valor, desde que a chave paea esse valor seja um objeto imutavel como (string e numeros)
+
+*iterar sobre dicionarios: a forma mais comum comum para percorrer os dados de um dicionario é utilizando o comanod for
