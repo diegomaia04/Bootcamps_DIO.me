@@ -270,3 +270,25 @@ Acesso aos dados: os dados são acessados e modificados através da chave
 * dicionarios aninhadas: dicionarios podem armazena qualquer tipo de obejto python como valor, desde que a chave paea esse valor seja um objeto imutavel como (string e numeros)
 
 *iterar sobre dicionarios: a forma mais comum comum para percorrer os dados de um dicionario é utilizando o comanod for
+
+--------------
+
+#### Funções no Python
+
+* o que são funções?:  Função é um blco de código identificado por um nome e pode receber uma lista de parametros, esses parametros podem ou não ter valores padrões. Usar funções torna o codigod mais legivel e possibiloita o reaporveitamento de codigo. programar basado em funções, é ooo mesmo que dizwer que estamos programando de maneira estrurada
+
+* retorno de valores: para retornar um valor, utilizamos a palavra reservada return. Toda função Pyhotn retorna none por padraõ. Diferente de outras linguagens de programação, em Python uma função pode rertonar mais d eum avlor
+
+* arguemntos nomeados: funções também podem ser chamadas usandos argumentos nomeados da forma chave = valor
+
+* args e kwargs: podemos combinar parametros obrigatorios com args e kwargs. uqnado esse são definidos (*args e **kwargs), o méteodo recebe os valores como tupla e dicionario respectivamente
+
+* parametros especiais pro padrão argumentos podem ser passados para uma função python tanto por posição quanto explicitamente quanto explicitamente pelo nome. Para uma melhor legibilidade e desempenho, faz sentido restringir a maneira elo qual arguemntos possam ser passadis a maneiras pelo qual arguemtnoos possam er passados, assim um desevolvedor precisa apenas olhar para a defininação da funcao paraa determinar se os itens são passadis por posição, po posição e nome, ou por nome
+
+* Obejtos de primeira calsse; Em Python tudo é ojeto, dessa forma funções também são obejtos o que as tornam obejtos de primeira calsse Com isso podemos atribuir funções a variaveis, passá-las como parametro para funções, usá-las como valores em estruturas de dados(listas, tuplas, dicionarios, etc) e usar como valor de retorno paaa uma funão(closures)
+
+------
+
+#### Escopo local e escopo global
+
+* Python trabalha com escopo local e global, dentro do bloco da função o escopo é local. Portanto alterações ali feitas em obejtos imutaveis serão perdidas quando o meteodo terminar de ser executado. Para uasr objetos globais utilizamos a palavra- chave global, que informa ao interpretador que aa variavel que estas ndo manipulada no escopo local é global
