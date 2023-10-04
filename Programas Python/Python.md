@@ -6,7 +6,7 @@
 
 ❗Para documentar algo na linguagem python se usa "#" ❗
 
-#### 🎲 Dados 🎲####
+#### 🎲 Dados 🎲
 
 
 * Existem tipos de dados na linguagem python. Eles servem para definir as caracteriscas e comportanementos de um valor(objeto) para o programa. Os tipos são: 
@@ -17,7 +17,7 @@ Numerico > ``` int && float && complex ```
 
 Sequência > ``` list && tuple && range ``` 
 
-Mapa > ``` dict ``` 
+Dicionario > ``` dict ``` 
 
 Coleção > ``` set && frozenset ``` 
 
@@ -27,7 +27,7 @@ Binário > ``` bytes && bytearray && memoryview ```
 
 ---------
 
-#### 🤬 Modo Interativo 🤬####
+#### 🤬 Modo Interativo 🤬
 
 O interpretador Python pode executar em modo que possibilite o desevolvendor a escrever o codigo e ver o resultado na hora. Existem duas formas de inicar o modo interativo: 
 
@@ -37,7 +37,7 @@ O interpretador Python pode executar em modo que possibilite o desevolvendor a e
 
 -----------
 
-#### 🧩Função dir e help 🧩####
+#### 🧩Função dir e help 🧩
 
 * dir: Sem arguemntos, retorna a lista de nomes no escopo local atual. Com um argumrntos, retorna uma lista de atributos validos para o objeto. Exemplo: 
 
@@ -275,7 +275,7 @@ Acesso aos dados: os dados são acessados e modificados através da chave
 
 #### Funções no Python
 
-* o que são funções?:  Função é um blco de código identificado por um nome e pode receber uma lista de parametros, esses parametros podem ou não ter valores padrões. Usar funções torna o codigod mais legivel e possibiloita o reaporveitamento de codigo. programar basado em funções, é ooo mesmo que dizwer que estamos programando de maneira estrurada
+* o que são funções?:  Função é um blco de código identificado por um nome e pode receber uma lista de parametros, esses parametros podem ou não ter valores padrões. Usar funções torna o codigod mais legivel e possibiloita o reaporveitamento de codigo. programar basado em funções, é o mesmo que dizwer que estamos programando de maneira estrurada
 
 * retorno de valores: para retornar um valor, utilizamos a palavra reservada return. Toda função Pyhotn retorna none por padraõ. Diferente de outras linguagens de programação, em Python uma função pode rertonar mais d eum avlor
 
@@ -292,3 +292,10 @@ Acesso aos dados: os dados são acessados e modificados através da chave
 #### Escopo local e escopo global
 
 * Python trabalha com escopo local e global, dentro do bloco da função o escopo é local. Portanto alterações ali feitas em obejtos imutaveis serão perdidas quando o meteodo terminar de ser executado. Para uasr objetos globais utilizamos a palavra- chave global, que informa ao interpretador que aa variavel que estas ndo manipulada no escopo local é global
+
+-----
+
+### EXplorando IA Generativa em um pipeline de ETL com Python
+
+ETL: Extração, Transformação e Careegamento de dados
+
