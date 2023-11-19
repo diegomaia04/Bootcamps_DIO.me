@@ -236,12 +236,12 @@ Listas podem armazenar todos os tipo de obejtos Python, portanto podemos ter lsi
     letra = str(input("digite uma letra: "))
     vogais = ["a","e","i","o","u"]
 
-´´´
+```
     if letra in vogais :
     print("a letra digitada é vogal")
     else:
     print("a letra digitada e uma consoante")
-´´´
+```
 
  - este e um exmeplo de codigo onde foi criada uma lista com os dados requistados e , dento de uma condição if, podemos acessar o conteudo da lista utilizando o in.
 
