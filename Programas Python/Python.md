@@ -232,11 +232,10 @@ Listas podem armazenar todos os tipo de obejtos Python, portanto podemos ter lsi
 
 * Compreensão de listas: A compreensão de lista oferece uma sintaxe mais curta quando voc~e deseja: criar uma novalista com base nos valores de uma lsita existente (filtro) ou gerar uma nova lista aplicando alguma modificacao nos elmentos de uma lista existente
 
-
+```
     letra = str(input("digite uma letra: "))
     vogais = ["a","e","i","o","u"]
 
-```
     if letra in vogais :
     print("a letra digitada é vogal")
     else:
