@@ -232,6 +232,19 @@ Listas podem armazenar todos os tipo de obejtos Python, portanto podemos ter lsi
 
 * Compreensão de listas: A compreensão de lista oferece uma sintaxe mais curta quando voc~e deseja: criar uma novalista com base nos valores de uma lsita existente (filtro) ou gerar uma nova lista aplicando alguma modificacao nos elmentos de uma lista existente
 
+
+    letra = str(input("digite uma letra: "))
+    vogais = ["a","e","i","o","u"]
+
+    if letra in vogais :
+    print("a letra digitada é vogal")
+    else:
+    print("a letra digitada e uma consoante")
+
+ - este e um exmeplo de codigo onde foi criada uma lista com os dados requistados e , dento de uma condição if, podemos acessar o conteudo da lista utilizando o in.
+
+- esse e mais exeplos de codigos utilizando python e estruturas do python se encpntra em um repositorio privado chamados fundamnetos, csao queira acessalo entar em contanto com o propriotario do github
+
 ---------------
 
 #### tuplas
