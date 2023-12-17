@@ -14,7 +14,7 @@ Percuso:
 * Operadores de atribuição
 * Operadores condicioanis
 * operadores lógicos
-* operadores aritmeticos e a clasee Math
+* operadores aritmeticos e a classe Math
 * Estruturas de repetição
 * Estrutura de um programa e meteodo principal
 * Array List
@@ -141,6 +141,154 @@ nao importa a ordem, de atributos e meteodos dentro de um classe
 
 Toda ação temos que fazer no Program.cs pq ele é o ponto de entrada do sistema 
 
+"\n" quebra de linha pelo comando
+
+- Sintaxe: Conjunto de regras que deve-se obedecer, se não o C# não compilar o codigo
+
+- Converções: padronizar nossas codificações, não é obrigatorio, porém fica mais ilegivel
+
+Tipos de Cases
+
+* camelCase
+* PascalCase
+* snake-case
+* spinal-case
+
+#### Tipos de daods
+
+###### obs: 
+
+para algum bloco de codigo, e preciso selecionar, e depois apertar crtl + k + c.
+
+- String: a series of characteres
+- char: a unicode character
+- object: Object type
+- bool: Boolean value
+- byte: 8-bit unisgned integer
+- decimal: decimal values with 28-29 significant digits
+- double: 64 bit double-precision floating point type
+- int 32 bit signed integer type
+- floatt: 32 bit single-precision floating point type
+- long 64 bit signed integer type
+- uint: 32 it unsigned integer type
+- short: 16 bit signed integr type
+- ulong 64 bit unisgned integer type
+
+-----
+
+DateTime; é uma maneira de reprensetar datas na lingaugem de programação C#
+
+o codigo para mostrar o dia atual e o horario que a maquina esta
+
+```
+DateTime dataAtual = DateTime.Now;
+Console.WriteLine(dataAtual);
+```
+
+o codigo para mostrar do dia atual mais a quantidade de dias desejados, com o horario atual.
+```
+DateTime dataAtual = DateTime.Now.AddDays(numero de dias);
+Console.WriteLine(dataAtual);
+```
+
+o codigo as eguir so passa a data, pode ser usado em qualquer tio de DataTime, em dia futuros ou em dias atuais, exemplo
+```
+DateTime dataAtual = DateTime.Now.AddDays(numero de dias);
+Console.WriteLine(dataAtual.ToString("dd//MM/yyyy"));
+```
+
+- o valor de uma variavel pode mudar conforme o jeito que declara ela, exemploo( ela respeitara a ordem da sintaxe):
+      - ver exemplo nos codigos
+- isso se chama de alteração de uma variavel ja declarada anterioamente.
+
+#### Operadores de atribuição
+
+O operador de atribuição "=" atribui o valor do opreando do lado direito a uma variavel, uma "=" ou um elemento indexador fornecido pelo operando do lado esquerdo. O resultado de uma expressão de atribição é o valor atribuído a uma operando do lado esquerdo. O tipo de operandos do lado direto deves er do mesmto tupo ou implicitamenre conversivel para o operando do lado esquerdo
+
+- Impossivel transformar String para int, para trabfromar variaveis elas precisam ser do mesmo tipo, por exemplo, float para int, vice-versa
+
+Podemos utilizar dois tipos de codigos para conevtertipos de variaveis
+
+- O primeiro é o Covert
 
 
+      int a = Covert.ToInt32(5);
+
+- o segundo tipo e
+
+      int a = int.Parse("5c");
+
+Conervsao para o tipo String. Para ser reconhecido como string é preciso estar entre aspas duplas
+
+ - Outro jeito é declarar o numero como int e depois converter o valor declarado como int por exeplo em string, como exemplo
+
+
+         int inteiro = 5;
+         string a = inteiro.ToString();
+
+- O proprio ToString vem do proprio C#, de uma propria classe do C# atraves da orientação de objetos
+
+###### o que é um Cast Implícito 
+
+- significa uma conversao de diferentes tipos que nao precisa utilizar a conversao pois ele se converte automaticamente por voce
+ 
+       int a = 5;
+       double b = a;
+       Console.WriteLine(b);
+
+
+Ordem dos operadores, nas contas que realizamos no C#, ele respieta as ordem na matematica, em preferencia de parenteses, chaves, de divisao, multiplicação e tec
+
+a sintaxe de codigo, é uma tentaiva de saida com uma espera de erro vindo od codigo, o "out b" e uma tentativa de converter o "b" para o "a":
+
+      string a = "15";
+      int b = 0;
+      int.TryParse(a, out b);
+
+#### Operadores Condicionais
+
+ O operador condicional possibilita mudar o fluxo de execucao de seu codigo, indicando um caminho que ele deve percorrer
+
+ exemeplos de condições: if, ifelse, switch case, etc.
+
+* if aninhado, exemplo:
+
+      if(condicao){
+         // bloco de codigo
+      }
+      else if(condicao2){
+        // bloco de codigo
+      } else {
+        // bloco de codigo
+      }
+
+
+ Afinal, o que é debugar um código? O debug é um processo que ajuda a identificar e remover inconsistências no código-fonte do programa. Sabe quando ocorre uma mensagem de erros inesperados ou quando uma ação do usuário não funciona? Às vezes uma simples depuração pode resolver esse “bug”.
+
+Falamos acima que um bug pode acontecer quando um usuário tenta abrir uma página ou painel, mas não conseguir executar a ação. E esses casos podem acontecer apenas porque há um erro de digitação de código, independente da linguagem. 
+
+Detalhes, que podem soar pequenos para todos, na programação impedem que o sistema desempenhe as tarefas da maneira correta. Para solucionar esses problemas é importante entender o que é debug e sua aplicação. 
+
+Além de ajudar a evitar os erros, o debug ainda aumenta o tempo de vida útil de um sistema. Afinal, se houver muitos travamentos, as pessoas deixarão de usá-lo. Sem contar que programas que funcionam bem garantem a confiança do público, sejam aplicativos de banco, sites ou jogos de computador.
+       
+
+* case: estrtura condicional, da mesma forma que o if, porem e um pouco melhor e mais pratico para aqueles que tem muitos caminhoss que o cdigo podem seguir ou muitas opções a seu dispor
+
+#### Operadores Logicos
+
+- Operador OR (Pipe, ||)
+- Operador AND (&&) obs: todas as condições precisam ser verdadeiras
+- Operador NOT (!)
+
+#### operadores aritmeticos e a classe Math
+
+São operadores que utilizamos na matetimca e tambem no c# para a realização de contas matematicas, a classe Math, é uma classe que possibilita fazer cálculos mais complexos
+
+- +: Addition, adds together two values (x + y)
+- -: Subtraction, Subtracts one value form another (x - y)
+- *: multiplication, multiplies two values (x * y)
+- /: Division, divides one value by another (x / y)
+- %: Modulos, returns the divider remainder (x % y)
+- ++: Increment, increases the value of a variable by 1 (x++)
+- --: descrement, decreases the value of a variable by 1 (x--)
 
