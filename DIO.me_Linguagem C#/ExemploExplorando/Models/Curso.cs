@@ -26,6 +26,5 @@ namespace ExemploExplorando.Models
             Alunos.Remove(aluno);
         }
 
-
     }
 }
