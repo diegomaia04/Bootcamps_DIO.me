@@ -21,10 +21,21 @@ namespace ExemploExplorando.Models
             return quantidade;
         }
 
-        public void RemoverAluno(Pessoa aluno)
+        public bool RemoverAluno(Pessoa aluno)
         {
-            Alunos.Remove(aluno);
+            return Alunos.Remove(aluno);
         }
 
+        public void ListarAlunos()
+        {
+            Console.WriteLine($"Alunos do curso de: {Nome}");
+
+            for (int Count = 0; Count < Alunos.Count; Count++)
+            {
+                // string texto = "N° " + Count + "-" + Alunos[Count].NomeCompleto;
+                string texto = $"N° {Count + 1} - {Alunos[Count].NomeCompleto}";
+                Console.WriteLine(texto);
+            }
+        }
     }
 }

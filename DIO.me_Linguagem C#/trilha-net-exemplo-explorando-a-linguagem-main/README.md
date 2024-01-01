@@ -101,7 +101,7 @@ C# extensions for JosKreativ
 
 Vamos estudar como é composto um projeto, classes e suas convenções no C#
 
-nessa etapa sera algo mais pratico, logo os programas fetiso estarao no repositorio
+nessa etapa sera algo mais pratico, logo os programas fetiso estarao no repositorio 
 
      dotnet --info
 
