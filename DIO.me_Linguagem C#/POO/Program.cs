@@ -1,4 +1,5 @@
-﻿using POO.Models;
+﻿using POO.interfaces;
+using POO.Models;
 
 ContaCorrente c1 = new ContaCorrente(123, 1000);
 c1.exibirSaldor();
@@ -13,7 +14,6 @@ a1.Idade = 20;
 a1.Nota = 10;
 a1.Aprensetar();
 
-
 Professor p1 = new Professor();
 //p1.Nome = "Atena";
 p1.Idade = 42;
@@ -27,3 +27,6 @@ c.ExibirSaldo();
 
 Computador c2 =  new Computador();
 Console.WriteLine(c2.ToString());
+
+ICalculadora calc = new Calculadora();
+Console.WriteLine(calc.Multiplicar(14,9));
