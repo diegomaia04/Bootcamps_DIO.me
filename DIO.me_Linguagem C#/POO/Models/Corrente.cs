@@ -5,8 +5,11 @@ using System.Threading.Tasks;
 
 namespace POO.Models
 {
-    public class Corrente
+    public class Corrente : Conta
     {
-        
+        public override void Creditar(decimal valor)
+        {
+            saldo += valor;
+        }
     }
 }
