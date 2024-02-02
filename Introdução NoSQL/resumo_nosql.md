@@ -4,6 +4,7 @@
 
 * termo correto: not noly sql
 * Não seguem modelos de tabelas e relacionamentos
+* Não utilizamos comandos  no baanco de dados não relacional
 * projetados para lidar ccom alto volume de daos, alta escabilidade
 * alta flexibilidade na estrturada de daodso
 * eles são aplamente utilizados em cenarios onde a conisstencia imediata dos daos não é critica
@@ -22,9 +23,18 @@ NoSQL:
 - Modelo de dados flexivel
 - Escalabilidade horizontal
 - Transações ACID ausentes total ou parcial
-- CAsa SGBD tem sua propria linguagem
+- Cada SGBD tem sua propria linguagem
+
+#### Mteodo de instalação do MongoDb
+
+- Para a utilização do banco de dados não relacional é necessario instalar os seguintes itens:
+    - MongoDb Service
+    - MongoDB Compass
+    - MonngoDB Shell 
 
 #### Visão geral dos tipos de NoSQL
+
+Resumo: os arquivos no MongoDB são parecidos com as estrturas de arquivos JOSN ou JavaScript, sendo suas sinatexes de estrtura parecidade, no MOngoDb chamados os objetos de documentos 
 
 TIPOS:
 
