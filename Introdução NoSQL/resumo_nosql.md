@@ -107,6 +107,7 @@ Armazenar e consultar daodos interconctados, onde os relaiconamentos entre os da
 
 ! USERNAME: adm
 ! PASSWORD: 123@anakin
+! Connection String: mongodb://localhost:27017
 
 ### Estrutura de documentos no banco de dados
 
