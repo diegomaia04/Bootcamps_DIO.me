@@ -117,6 +117,26 @@ Armazenar e consultar daodos interconctados, onde os relaiconamentos entre os da
 
 ```
 {
+   "_id":1,
+   "nome":"Diego Maia",
+   "idade":19,
+   "data_nascimento":"2004-04-04",
+   "endereco":"Rua francisco Gouveia 46...",
+   "enderecos":[
+      {
+         "logradouro":"Rua Francisco Gouveia",
+         "numero":46,
+         "bairro":"mooca",
+         "cidade":"São paulo"
+      }
+   ]"interesses":[
+      "musica",
+      "livros"
+   ],
+   "reservas":[
+      1,
+      2
+   ]
 }
 ```
 
