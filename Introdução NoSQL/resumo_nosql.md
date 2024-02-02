@@ -108,6 +108,18 @@ Armazenar e consultar daodos interconctados, onde os relaiconamentos entre os da
 ! USERNAME: adm
 ! PASSWORD: 123@anakin
 
+### Estrutura de documentos no banco de dados
+
+- Coleções: cada coleção são documentos em conjuto
+- Documentos: arquivos do tipo JSON que armazena dados requeridos
+
+- Exemplo de um documentos:
+
+```
+{
+}
+```
+
 ### Coleções
 
 - Agrupamento lógico de documentos
