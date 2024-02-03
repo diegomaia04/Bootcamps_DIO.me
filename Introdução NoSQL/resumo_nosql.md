@@ -155,7 +155,7 @@ Os nomes das coleções devem seguir algumas regras:
 * Não podem ser vazios
 * Não podem ter mais de 64 bytes de comprimento
 
-#### documetno
+#### documento
 
 - São armazenamdos em docuemtnos BSON(Bynary Json), que são esttruturas flexiveois e semiestruturadas
 - Cada docuemnto posssui um indetificador único chamado "_id"
@@ -194,10 +194,10 @@ Os nomes das coleções devem seguir algumas regras:
 
     - Quando  NÃO usar o inner Documents:
 
-   * Se os dados aninhados precisarem ser consultaod e atualizados independetemnete do coumento pai, é mais adqueaod utilizar coleções speradas
+   * Se os dados aninhados precisarem ser consultado e atualizados independetemnete do coumento pai, é mais adqueaod utilizar coleções speradas
 
    ### MongoDB Compass
-
+  
 - Criando um DataBase
 
    ```
