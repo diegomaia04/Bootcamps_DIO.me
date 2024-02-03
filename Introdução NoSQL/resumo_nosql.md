@@ -215,6 +215,15 @@ Os nomes das coleções devem seguir algumas regras:
    db.createCollection("destinoss")
    ```
 
+-  Criando Documentos
+
+   ```
+   db.Collection.InsertOne({ "conteudo" })   // criando apenas um documento
+   ```
+   ```
+   db.Collection.InsertMany({ "conteudo", "conteudo", ... })   // criando varios documentos de uma vez somente
+   ```
+
 - Consultando Documentos
 
     ```
