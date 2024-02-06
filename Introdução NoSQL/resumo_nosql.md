@@ -244,6 +244,16 @@ Os nomes das coleções devem seguir algumas regras:
    db.usuarios.deleteMany({})
    ```
 
+   - Modificando Documentos
+
+   ```
+   db.nomeDB.UpdateOne({ID}, {$push: {campo: "modificação"}})       // caso queria adiconar em algum campo do docuemnto
+   ```
+
+     ```
+   db.nomeDB.UpdateOne({ID}, {$pull: {campo: "modificação"}})       // caso queria remover uma propiedade em algum campo do docuemento
+   ```
+
    ### Consulta Simples: Operações
 
    - Igualdade realizar consultas baeasdas em um valor especifico em um campo
