@@ -7,7 +7,7 @@
 - ## Comandos para a instalação do Mongo Db no node.js
 
 ```
-npm init       // iniciar um projeto npm no vsc
+npm init // iniciar um projeto npm no vsc
 ```
 ```
 npm install express // instalar expressões.
@@ -35,8 +35,9 @@ Set-ExecutionPolicy RemoteSigned e escolha a opção yes apertando a letra y e a
 
 // caso não der certo utilize outro comando
 
-* Set-ExecutionPolicy -Scope CurrentUser
-
+```
+Set-ExecutionPolicy -Scope CurrentUser
+```
    * esse comando permitira alterar os niveis de segurança, apos digitar ele digite no shell:
  
    * RemoteSigned
