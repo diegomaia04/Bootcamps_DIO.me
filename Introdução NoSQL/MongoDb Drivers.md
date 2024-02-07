@@ -13,7 +13,7 @@ npm init       // iniciar um projeto npm no vsc
 npm install express // instalar expressões.
 ```
 ```
- npm install -g nodemon // é um utilitário que monitora as mudanças nos arquivos do seu projeto e reinicia automaticamente o servidor Node. js quando necessário
+ npm install -g nodemon // é um utilitário que monitora as mudanças nos arquivos do seu projeto 
 ```
 
 ```
