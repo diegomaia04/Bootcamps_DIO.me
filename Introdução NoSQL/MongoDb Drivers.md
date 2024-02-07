@@ -41,3 +41,7 @@ Set-ExecutionPolicy -Scope CurrentUser
    * esse comando permitira alterar os niveis de segurança, apos digitar ele digite no shell:
  
    * RemoteSigned
+
+### Postman
+
+Iremos utilizar o Postman para a realização de tarefas do mongoDB atraves do browser do postman, uma maneira mais simples do que continuar no browser normal.
