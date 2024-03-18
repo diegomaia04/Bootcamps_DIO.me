@@ -42,18 +42,18 @@ Linguagem de consulta padronizada utilizada para a interação com o banco de da
 
 Osrganização do SQL:
 
-* DQL - Linguagem de COnsulta de Dados
+* DDL - Linguagem de COnsulta de Dados: São comandos de modificação do banco de dado
     ```SELECT;```
 
-* DML - Linguagem de Manipulação de Dados
+* DML - Linguagem de Manipulação de Dados: São comandos de alteração das informações contidas em tabelas, que pode ser para a inserção ou exclusão de dados
     ```INSERT, UPDATE, DELETE```
 
-* DCL - Linguagem de COntrole de Dados
+* DCL - Linguagem de Controle de Dados: Atua nas permissões, restrições e bloqueios no banco de dados 
     ```GRANT, REVOKE```
 
-* DQL - Linguagem de COnsulta de Dados
+* DTL -  Linguagem de Transição de Dados: Responsável por registrar e salvar quaisquer alterações realizadas por usuários
     ```BEGIN, COMMIT, ROLLBACK```
-
+  
     ---
 
     #### Mer e Der
