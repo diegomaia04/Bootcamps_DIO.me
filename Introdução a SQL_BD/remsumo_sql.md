@@ -36,7 +36,7 @@ O objtivo Geral do curso é fornecer uma introdução aos Bancos de Dados relaic
 * Flexibilidade e extensibildade
 * Suporte a transações ACID
 
-## Introdução e COnceitos básicos de SQL
+## Introdução e Conceitos basicos de SQL
 
 Linguagem de consulta padronizada utilizada para a interação com o banco de dados
 
