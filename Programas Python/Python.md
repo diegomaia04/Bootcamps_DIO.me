@@ -313,3 +313,34 @@ Acesso aos dados: os dados são acessados e modificados através da chave
 
 ETL: Extração, Transformação e Careegamento de dados
 
+#####  Projeto de interface grafica com a lingaugem Python
+
+As aplicações, sejam elas em formato mobile (celular) ou desktop (computador/notebook), têm grande importância na vida humana cotidiana, independentemente de estarmos olhando para a tela de um celular ou interagindo em nossos computadores.
+
+Quando estamos acessando uma rede social, um jogo no celular, um aplicativo da área de trabalho do computador, ou até mesmo um site, estamos interagindo com o que chamamos de aplicativo ou widget, a depender da situação.
+
+Hoje, eles são escritos em diferentes linguagens de programação (Java, Python, C++, C# etc.), inclusive juntando mais de uma linguagem para uma experiência cada vez melhor.
+
+Talvez o termo widget tenha se originado da junção das palavras em inglês window (janela) e gadget (dispositivo), o que jamais poderemos saber, pois esta é uma especulação na comunidade tecnológica.
+
+* Formas
+
+* Tamanhos
+
+* Funções Distintas
+
+Widgets de layout: tem como obejtivo posicionar outros Widgets
+
+Widgets de UI: são aqueles visiveis ao usuario final 
+
+O Python está em todo lugar, da inteligência artificial a cybersecurity, passando por análise de dados, computação gráfica e até por suporte futuro à computação quântica.
+
+Atualmente, é difícil pensar uma área em que ele não esteja presente. Por isso, o mercado procura pessoas capacitadas e que dominam a linguagem, a depender da especificidade.
+
+Existem alguns aplicativos que foram codificados em Python que nos permitem imaginar o quanto essa linguagem é poderosa:
+
+ * Kivy é amigável ao usar utilizar arquivos .kv que fornece rápido e ótimo desenvolvimento de aplicativos que usam mais a interface do usuário com altas funcionalidades e melhor para o desenvolvimento de aplicativos móveis e também outros aplicativos relacionados a aplicativos multitoque.
+
+ * O PyQt não é tão amigável, pois o Qt não é qualquer linguagem, mas usa C++ como linguagem de programação, o que torna o desenvolvimento um pouco complexo no design da interface do usuário, porém é rápido e ótimo ao ser usado no desenvolvimento de aplicativos de desktop ou quaisquer aplicativos que têm funcionalidades nativas como software de desktop.
+
+ 
