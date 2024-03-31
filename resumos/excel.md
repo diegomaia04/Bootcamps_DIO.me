@@ -81,3 +81,50 @@ TECLA CTRL:
 
 * altura da linha: define a linha selecionadacom a altura estipulada
 * AutoAjuste da Altura da Linha: ajusa a linha á altura da celula selecionada
+
+
+###### WebCds
+
+* Ao cirar uma planilha voce pode gerenciar e analisar os dados dela. Por exemplo, é possivel filtrar colunas, adicionar linhas para totais, aplicar formatação e muito mais
+
+* se voce noa quiser mais trabalhar com os ddados em uma ferramneta de tabela, podera convertela em uma intervalo regular de dados, mantendo a formação aplicadad. quando voce nao precisar mais dela, podra exclui-la
+
+é possivel formatra colunar, tabelas e linhas
+
+caminho = selecionar uma celula da tabela => Pagina Incial: Formatar como Tabela => Escolher um modelo
+
+Em Ferramentas de tabela é possivel:
+
+* Alterar o nome da tabela  
+* expandir a area da tabela 
+* Transformar o intervalo atual em tabela dimanica  
+* remover dados duplicados
+* Converter a tabela atual em um intervalo regular  
+* inserir segmentaçãoo de dados 
+* Exportar os dados da tabela   
+* alterar o estilo de tabela
+
+Formula para conseguir o Total dos pordutos na tabela ListaDeProdutos: Rever e refazer.
+
+
+         =[@Preço]*[@[Qtde, Comprada]]
+
+* resumindo a formula acima: seleiconamos as celulas que queremos preencher as celulas total, selcionamos o primeiro campo do preco e depois adiconamos o  sinal de mulplicação e selecionamos o primeiro elemntos da quantidade de compra e entao enter, com isso ele preencheera todos os demais abaixo dele automaticamente
+
+* Sobre o sinal de @
+
+  * O simbolo (@), usado nas formulas de tabela, indica que o caluclo deve usar os valores da linha em que se encontra. Se o caluclo faz refrencia a coluna Qtde e Preco, na linha 2, os valores dessa coluna a serem usados deve ser os mesmo da linha2 
+
+* remover duplicatas:
+
+  * removendo duplicatas de dados que ccontem na tabela
+
+  *caminho: toque em qualuer lugas da tabela para ativa-la => toque na guia DESIGNe, no grupo de ferramnetas, toque em remover duplicatas
+
+* NO excel Podemos trabalahr com as mais difrentes formatções de numeros, a mesma ferramenta se econtra na pagina incial e esta escirto numeor como ferrmaneta
+
+* ferramnete recortar
+
+  * Voce podera colar os dados, pressioando a tecla Neter. Um ataalho de teclado para recortar é CRTL + X e para colar e CRTL + V
+
+* São localizadas as ocoorencias de localização em todas as planilhas abertas on Excel. para ter acesso as demais informações de um dos conteudos pesquisados, basta tocar sobre ele. O excel posicionara o cursosr automaticamnete sobre a celualr localizadas
