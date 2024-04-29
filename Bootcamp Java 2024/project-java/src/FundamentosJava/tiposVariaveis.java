@@ -8,8 +8,6 @@ public class tiposVariaveis {
         long  cpf =  98565548886L; // se começãr com zero, talvez tenha que ser outro tipo
         float pi = 3.14F; // orbigatorio ter o F ou f em float
         double salario = 1275.33;
-
-
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;               // trasnformar os mais diferentes tipos de declaração de numerais
         short numeroCurto2 = (short) numeroNormal;
@@ -26,7 +24,4 @@ public class tiposVariaveis {
         // valueofPi = 3; essa linha dara erro caso seja descomentada
         System.out.println(valueofPi);
     }
-
-
-
 }
