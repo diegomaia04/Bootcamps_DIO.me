@@ -35,6 +35,45 @@ IDes, para auemnatr nossa produtividade, nós podemos escolher algumas ferrament
 
 - Depuração (acompnahemnto) de excução o programa
 
+    * classe executavel: uma classe capaz de incializar o conteudo do codigo dentro do projeto
+
+    ```
+    public static void main(String[] args) {
+         // bloco de codigo   
+        }
+    ```
+
+- Declarar uma variavel em Java segue sempre a seguinte estrutura:
+
+    ```
+    // estrutura
+
+    tipo nomeVariavel = atribuição (opcional em alguns casos)
+
+    // exemplo
+
+    int idade = 23;
+    double altura = 1.63
+
+
+
+    ```
+
+    - Declarar meteodos em Java segue sempre a seguinte estrutura:
+
+    ```
+    // estrutura
+
+    tipoRetorno NomeObjetivoNoInfinitivo Parametros(s)
+
+    // exemplo
+
+   int somar ( int Numero Um, int NumeroDois)
+    
+
+
+    ```
+
 
 IDES:
 
@@ -46,6 +85,72 @@ IDES:
 
 - crtl + shift + p: aparece a opção de criar um novo projeto jaba, ele ja cria todos os coumentos possiveis
 
+#### Sintaxe basica do Java
+
+- Apresentra as regras essenciasi para a ccontrução de códigos com base na linguagem Java
+
+- Anatomia da Classe: basicmanete consolidar tdodo aspectal estrutural da linguagem, seus por ques resumidamente
+
+- Arquivo.java: Todo arquivo .java deve começar com a letra maiuscula. Se a palavra for composta, as segunda palavra deve também ser maiuscla, exemplo: 
+        - Calculadora.java
+        - CalculadoraCientifica.java
+
+- Nome da classe do arquivo: A Classe deve posssuir o mesmo noeme do arquivo.java
+
+- Objetivo: Explorar os tipos de dados numericos inteiros, numericos decimais, lógicos, cacteres e suas aplicabilidades. Explicar a diferencia entre definição de variaveis e constantes
+
+    - nuemricos inteiros
+    - tipos logicos
+    - caracteres
+    
+###### os oito tipos primitivos em Java são
+
+- int
+- byte
+- short
+- long
+- float
+- double
+- char
+
+esses tipos não são considerados obejtos, e portanto representam valores brutos. Eles são armazenamdos diretamente na pilha da memoria
+
+```
+<tipo> <nomeVariavel> <=> <atribuiçãoDeValor>
+```
+
+* TIPOS DE OPERADORES
+
+    - operadores aritmeticos
+    - ||         ternario
+    - ||         logicos
+    - ||         relacionais
+    - ||         unários
+  
+
+
+###### regras para a construção de uma variavel
+
+1. deve conter apenas letras, underline (_), $, ou os numeros de 0 a 9
+2. Deve iniciar com uma letra minuscla (boa pratica)
+3. Nao pode conter espaços
+4. Nao podemos usar palavras chave da linguagem
+5. O nome deve ser unico dentro de um escopo
+
+- Identação: BAdicamnete indetar é um termo utilizado para escrever o codigo do programa de forma hieráquica, facilitando assim a vissualização eo entendimento do programa
+
+###### Java Beans
+
+Uma das maiores dificuldades na programação é escrever algoritmos legíveis a n´veis que sejam compreeendidos por todo seu time ou por voce mesmo no futoro. Para isso a lingagem Java sugere, atrasves de conveções, formas de escrita universal para nossas classes, atributos metodos e pacotes
+
+###### assuntos
+
+- Estrutura inical
+- Padrão de nomeclatura
+- Declarando variáveis e métodos
+- Identação
+- Organização arquivos
+- java Beans
 
 
 ## POO com Java
