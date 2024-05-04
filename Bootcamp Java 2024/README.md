@@ -55,10 +55,7 @@ IDes, para auemnatr nossa produtividade, nós podemos escolher algumas ferrament
     int idade = 23;
     double altura = 1.63
 
-
-
     ```
-
     - Declarar meteodos em Java segue sempre a seguinte estrutura:
 
     ```
@@ -69,11 +66,7 @@ IDes, para auemnatr nossa produtividade, nós podemos escolher algumas ferrament
     // exemplo
 
    int somar ( int Numero Um, int NumeroDois)
-    
-
-
     ```
-
 
 IDES:
 
@@ -123,6 +116,10 @@ esses tipos não são considerados obejtos, e portanto representam valores bruto
 
     - operadores aritmeticos
     - ||         ternario
+
+            *   ```
+            <expressao Condicional> ? (caso condição seja true) : (caso condição seja false)
+            ```
     - ||         logicos
     - ||         relacionais
     - ||         unários
@@ -152,7 +149,114 @@ Uma das maiores dificuldades na programação é escrever algoritmos legíveis a
 - Organização arquivos
 - java Beans
 
+###### metodos
 
+- apresentar ccireteieros para criação de meteodos, parametros e visibilidade
+
+- qual a porposta principal do mteodo
+
+- qual o tipo de retorno esperado apos executar o meteodo
+
+- quais os parametros serao necesarios para ececução do metodo
+
+- o metodo possui o risoc de apresentar alguma exceção
+
+- qual a visibilidade do metodo
+
+Meteodos: 
+
+todas as ações das aplicações são consideradas metodos. Uma classse é definida por atribuitos e metodos. em sua grande maioria, variavies de diferentes tipos e valores. Os mmteodos, por usa vez, correspondem as funções diposivenis dentro de nossas classes
+
+- deve ser noemado como verbo
+
+- seguir o padrao camelCase (todas as letras minusculas com a exceção da primeira letra da segunda palara)
+
+- atenção não exsite em javva o conceito de mteodos globais. Todos os metodos devem sempre ser definidos dentro d eum classe
+
+
+```
+public double somar (int num1, int num2){
+    // logica - finalidade do metodo
+    return ...
+}
+
+public void imprimir(String Texto){
+    // logica - finalidade do meteod
+    // esse tipo de meteodo noa precisa de retorno
+}
+
+public double dividir(int num1, int num2) throws exeception{
+    // thors exception: indica que o meteodo utilizado podera gear uma exceção
+} 
+
+private void meteodoPrivado{
+    // esse metodo nao estara visivel por outra calsse
+}
+```
+
+###### Escopo
+
+- escopo de classe
+- escopo de metodo
+- escopo de fluxo
+
+Escopo pode ser entenido comom o ambinete onde uma varivael pode ser acessa. em Java, o escopo de variaveis vai de acordo com vloco onde la foi declarada
+
+###### palavras reservadas
+
+palvras reservadas são identifcadores de uma lingaugem que ja possume uma finalidade espeficia, portanto nao pode serm utilizados para nomear variaveis, classe, meteodos ou atributos
+
+A lingaugem Java possui  52 palavras reservadas
+
+###### java Doc
+
+Apresnetar a ferramneta de documentação da linguagem e explorar como adicionar comengarios em nossso arquivos
+
+###### Terminal e Argumentos
+
+- explorar opções de entrea e saida simples de daods em uma aplicação em Java
+
+- permite que o coidgo java seja executado via terminal
+
+#### Introdução e Estruturas Condiconais com Java
+ 
+- Controle de fluxo
+
+    Controle de fluxo é a habilidade de ajustar a maneira como um programa realiza suas tarefas. Por meio de instruções especiais, chamadas de comandos, essas tarefas pode ser executadas seletivamnete, repetidamente ou ex epcionalmente
+
+
+
+Porposta do curso: apresnetar os conceitos e explorar os tipos  de fluxox condicional, excepcional e de repetição em uma aplicação JAva
+
+Assuntos:
+
+    - Estruturas condicionais: if-else, switch-case
+    - Estruturas de repetição: for, while, do - while
+    - Estruturas de exceções: try-catch- finally, throw
+
+
+A estrutura switch compara o valor de cada caso com o da variavel sequecialmente, e smepre que encontra um valor correpondente, executa o coidgo asssociaod ao caso. para evitra que as comparações continuem a ser executadas apos um caso correpsondete ter sido encotrado, acresentamos o comnaod break no final de cada bloco de codigo
+
+    - Se optarem por usar switch / case, estudem um pouco sobre os conceitos continue, break e default
+
+Laços ourepetições são representadas pelas seguiintes coisa 
+
+- for (para)
+- while ( enquanto)
+- do while (faca enquanto)
+
+estruturas excepcionais
+
+ - De froma interpretativa em Java, um erro é algo irreparável, a aplicação trava ou é necerrada drasticamente. Já exceções é um fluxo inesperado da nossa aplicação.
+
+
+ * java. lang. nullPointerException : quando tentamos obter alguma informaçõa de uma variavel nula
+
+ * java.lang.Arithmeticexception: quando tentamos dividri um valor por zero
+
+ * java.sql.SQLException: quando existe algum erro relacionado a ingteração ao banco de dados
+
+ * java.io.FileNotFoundException: quando tenatmos ler ou escrever em um arquivo que não existe
 ## POO com Java
 
 ## Testes e Gereciamento de dependências em projetos JAVA
