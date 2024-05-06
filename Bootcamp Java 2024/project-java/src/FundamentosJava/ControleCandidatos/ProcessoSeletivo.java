@@ -16,6 +16,7 @@ public class ProcessoSeletivo {
         for (String candidato : candidatos) {
             entrandoEmContato(candidato);
         }
+
     }
 
     static void entrandoEmContato(String candidato) {
@@ -24,10 +25,10 @@ public class ProcessoSeletivo {
         boolean atendeu = false;
 
         do {
-            
+
             atendeu = atender();
             continuarTentando = !atendeu;
-            
+
             if (continuarTentando) {
                 tentativasRealizadas++;
             } else {
@@ -41,7 +42,7 @@ public class ProcessoSeletivo {
             System.out.println(" nao atendeu de maneira alguma >:(");
         }
     }
-    
+
     static boolean atender() {
         return new Random().nextInt(3) == 1;
     }
@@ -62,6 +63,7 @@ public class ProcessoSeletivo {
     }
 
     static void selecaoCandidatos() {
+
         String[] candidatos = { "Anakin", "Padme", "Han solo", "Chewbacca", "Luke", "Obi-Wan", "Leia", "Yoda", "R2-D2",
                 "C3PO" };
         int candidatosSelecionados = 0;
