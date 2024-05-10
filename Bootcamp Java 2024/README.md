@@ -247,7 +247,7 @@ Laços ourepetições são representadas pelas seguiintes coisa
 
 estruturas excepcionais
 
- - De froma interpretativa em Java, um erro é algo irreparável, a aplicação trava ou é necerrada drasticamente. Já exceções é um fluxo inesperado da nossa aplicação.
+ - De forma interpretativa em Java, um erro é algo irreparável, a aplicação trava ou é necerrada drasticamente. Já exceções é um fluxo inesperado da nossa aplicação.
 
 
  * java. lang. nullPointerException : quando tentamos obter alguma informaçõa de uma variavel nula
@@ -258,6 +258,25 @@ estruturas excepcionais
 
  * java.io.FileNotFoundException: quando tenatmos ler ou escrever em um arquivo que não existe
 ## POO com Java
+
+POO é um paradigma de programação baseado no conceito de "objetos", que podem conter dados na forma de campos, tambem conhecidos como atribui=tos e coidgos na form ade procedimentos, 
+
+Enquanto a programação estruturada é voltada a procedimentos e funç~oes definidas pelo usuario, a programação orientada a obejtos é voltada a conceitos como o de classes e objetos
+
+- Classes:
+
+Toda a estrutura de codigo na linguagem JAVA é distruido em arquivos com extensão em java denominados de classe
+
+ - as classes exsitents em nossos projeto serão composta por:
+ 
+ - identificador 
+ - caracteriscas
+ - comportamnetos
+ - classse (class)
+ - Instaciar
+ 
+ Getters e Setters: os meteodos são utilizados para bsucar valores de atributos ou defininr novos valores de aatrbatrbutos de instancias de classes
+
 
 ## Testes e Gereciamento de dependências em projetos JAVA
 
